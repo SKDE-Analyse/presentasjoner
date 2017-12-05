@@ -29,7 +29,7 @@ class: left, inverse
 ---
 template: normal
 
-# SAS-makro
+# Hva er en SAS-makro?
 
 ```sas
 %macro makronavn(parameter1 = , parameter2 = );
@@ -40,6 +40,29 @@ template: normal
 
 %mend;
 ```
+
+---
+template: inverse
+
+# Hvorfor bruke makroer?
+
+---
+template: normal
+
+# Hvorfor bruke makroer?
+
+- Latskap
+--
+- Oversiktlig
+--
+- Gjenbruk av kode
+--
+- Færre feil?
+
+---
+template: inverse
+
+# SAS-makro
 
 ---
 template: normal
@@ -169,8 +192,8 @@ set npr_skde.T17_magnus_avd_2016;
 run;
 ```
 
-- Kjøre `boomraade`-makroen på `npr_skde.T17_magnus_avd_2016` slik at *Bergen* blir splittet på boområdene *Bergen* og *Haraldsplass*.
-- Se på kildekoden til makroen `VarFraParvus`. Hva gjør den og hvordan gjør den det?
+1. Kjøre `boomraade`-makroen på `npr_skde.T17_magnus_avd_2016` slik at *Bergen* blir splittet på boområdene *Bergen* og *Haraldsplass*.
+2. Se på kildekoden til makroen `VarFraParvus`. Hva gjør den og hvordan gjør den det? Kjør makroen `VarFraParvus` med `avd`-datasettet (hent f.eks *emigrertDato*).
 
 ---
 template: inverse
@@ -207,7 +230,7 @@ template: oppgave
 # Oppgave
 
 1. Førte makroen `boomraader` til noen bivirkninger i forrige oppgave? Kan det være noen av disse var uønskede?
-2. Kjør makroen `VarFraParvus` med `avd`-datasettet (hent f.eks *emigrertDato*) som mangler `aar`. Hva skjer med datasettet ditt?
+2. Kjør makroen `VarFraParvus` med `avd`-datasettet (hent f.eks *emigrertDato*) som mangler `aar`. Hva skjer med datasettet ditt? Har du forslag til forbedringer av denne makroen?
 
 ---
 template: inverse
