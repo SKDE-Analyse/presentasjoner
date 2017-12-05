@@ -32,13 +32,26 @@ template: normal
 # Hva er en SAS-makro?
 
 ```sas
-%macro makronavn(parameter1 = , parameter2 = );
+%macro makronavn(...);
 
  /*
  Gjør noe her
  */ 
 
 %mend;
+```
+
+```
+/*
+kode
+*/
+
+/* Kjøre makro */
+%makronavn;
+
+/*
+mer kode
+*/
 ```
 
 ---
@@ -52,12 +65,16 @@ template: normal
 # Hvorfor bruke makroer?
 
 - Latskap
+
 --
 - Oversiktlig
+
 --
 - Gjenbruk av kode
+
 --
 - Færre feil?
+
 
 ---
 template: inverse
