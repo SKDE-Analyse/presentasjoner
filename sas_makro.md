@@ -261,7 +261,7 @@ template: oppgave
 # Oppgave
 
 
-- Tell antall avdelingsopphold (kontakter) i 2016 for menn i følgende aldersgrupper, uten bruk av makro og presenter i tabell:
+1. Tell antall avdelingsopphold (kontakter) i 2016 for menn i følgende aldersgrupper, uten bruk av makro og presenter i tabell:
 
 | Gruppe | Alder |
 | --- | ---: | 
@@ -275,11 +275,11 @@ template: oppgave
 | 8 | 70-79 år |
 | 9 | 80-89 år |
 
-- Gjør det så med en makro.
+2. Gjør det så med en makro.
 
 --
-- gjør det heller for kvinner.
+3. gjør det heller for kvinner.
 
 ---
-
+template: normal
 
