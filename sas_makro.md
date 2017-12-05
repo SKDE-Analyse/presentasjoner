@@ -1,11 +1,11 @@
 name: inverse
-layout: true
 class: center, middle, inverse
+layout: true
 
 ---
 template: inverse
 
-.title[SAS-makroer]
+# SAS-makroer
 
 .subtitle[Internkurs ved SKDE]
 
@@ -17,7 +17,8 @@ template: inverse
 
 
 ---
-template: inverse
+name: title
+class: center, middle, inverse
 
 # Hva er en SAS-makro?
 
@@ -56,25 +57,26 @@ mer kode
 ```
 
 ---
-template: inverse
+layout: false
+class: center, inverse
 
 # Hvorfor bruke makroer?
 
 --
 
-Latskap
+## Latskap
 
 --
 
-Oversiktlig
+## Oversiktlig
 
 --
 
-Gjenbruk av kode
+## Gjenbruk av kode
 
 --
 
-Færre feil?
+## Færre feil?
 
 
 ---
