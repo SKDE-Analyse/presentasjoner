@@ -59,10 +59,7 @@ template: inverse
 
 # Hvorfor bruke makroer?
 
----
-template: normal
-
-# Hvorfor bruke makroer?
+--
 
 - Latskap
 
@@ -79,18 +76,18 @@ template: normal
 ---
 template: inverse
 
-# SAS-makro
+# Argumenter
 
 ---
 template: normal
 
-# SAS-makro
+# Argumenter
 
 ```sas
-%macro makronavn(parameter1 = , parameter2 = );
+%macro makronavn(argument1 = , argument2 = );
  
-%put NOTE: parameter1 er &parameter1;
-%put NOTE: parameter2 er &parameter2;
+%put NOTE: argument1 er &argument1;
+%put NOTE: argument2 er &argument2;
  
 %mend;
 ```
@@ -101,19 +98,19 @@ template: normal
 Kjøres slik:
 
 ```sas
-%makronavn(parameter1 = ditt, parameter2 = datt);
+%makronavn(argument1 = ditt, argument2 = datt);
 ```
 
 ---
 template: normal
 
-# SAS-makro
+# Argumenter
 
 ```sas
-%macro makronavn(parameter1 = default1, parameter2 = default2);
+%macro makronavn(argument1 = default1, argument2 = default2);
  
-%put NOTE: parameter1 er &parameter1;
-%put NOTE: parameter2 er &parameter2;
+%put NOTE: argument er &argument1;
+%put NOTE: argument2 er &argument2;
  
 %mend;
 ```
@@ -121,7 +118,7 @@ template: normal
 Kjøres slik:
 
 ```sas
-%makronavn(parameter1 = ditt, parameter2 = datt);
+%makronavn(argument1 = ditt, argument2 = datt);
 ```
 
 --
@@ -147,17 +144,17 @@ template: oppgave
 # Oppgave
 
 ```sas
-%macro makronavn(parameter1 = default1, parameter2 = default2);
+%macro makronavn(argument1 = default1, argument2 = default2);
  
-%put NOTE: parameter1 er &parameter1;
-%put NOTE: parameter2 er &parameter2;
+%put NOTE: argument1 er &argument1;
+%put NOTE: argument2 er &argument2;
  
 %mend;
 ```
 
-1. Kjør makroen med og uten parametere. Hva blir resultatet?
-2. Prøv å kjøre koden `%put NOTE: parameter1 er &parameter1;` utenfor makroen.
-3. Lag tilsvarende makro som ikke tar argumenter, ved bruk av makrovariabler (`%let ...;`). Er det noen fordeler eller ulemper ved å gjøre det slik?
+1. Kjør makroen med og uten argumenter. Hva blir resultatet?
+2. Prøv å kjøre koden `%put NOTE: argument1 er &argument1;` utenfor makroen.
+3. Lag tilsvarende makro som ikke tar argumenter, ved bruk av *makrovariabler* (`%let ...;`). Er det noen fordeler eller ulemper ved å gjøre det slik?
 4. Ekstraoppgave: bytt ut `NOTE` med `ERROR`. Hva skjer i loggen? Hvordan kan man bruke dette i en makro? Hvilken konsekvens får dette?
 
 ---
@@ -187,7 +184,7 @@ run;
 ```
 
 --
-- Kan bruke andre definisjoner av boområder, ved å sende inn parametre.
+- Kan bruke andre definisjoner av boområder, ved å sende inn argumenter.
 
 --
 - Dokumentasjon finnes her: [skde-analyse.github.io/sas_macroer](http://skde-analyse.github.io/sas_macroer/)
@@ -246,8 +243,8 @@ template: oppgave
 
 # Oppgave
 
-1. Førte makroen `boomraader` til noen bivirkninger i forrige oppgave? Kan det være noen av disse var uønskede?
-2. Kjør makroen `VarFraParvus` med `avd`-datasettet (hent f.eks *emigrertDato*) som mangler `aar`. Hva skjer med datasettet ditt? Har du forslag til forbedringer av denne makroen?
+1. Førte makroen `boomraader` til noen bivirkninger i forrige oppgave? Hvis ja, Kan det være noen av disse var uønskede?
+2. Kjør makroen `VarFraParvus` med `avd`-datasettet (hent f.eks *emigrertDato*), men fjern først `aar`-variablen (`drop aar`). Hva skjer med datasettet ditt? Har du forslag til forbedringer av denne makroen?
 
 ---
 template: inverse
