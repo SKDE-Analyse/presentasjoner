@@ -41,6 +41,7 @@ template: normal
 %mend;
 ```
 
+--
 ```
 /*
 kode
@@ -61,16 +62,19 @@ template: inverse
 
 --
 
-- Latskap
+Latskap
 
 --
-- Oversiktlig
+
+Oversiktlig
 
 --
-- Gjenbruk av kode
+
+Gjenbruk av kode
 
 --
-- Færre feil?
+
+Færre feil?
 
 
 ---
