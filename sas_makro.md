@@ -1,8 +1,6 @@
-
-name: normal
+name: inverse
 layout: true
-class: left, inverse
-
+class: center, middle, inverse
 
 ---
 template: inverse
@@ -22,6 +20,11 @@ template: inverse
 template: inverse
 
 # Hva er en SAS-makro?
+
+---
+name: normal
+layout: true
+class: left, inverse
 
 ---
 template: normal
