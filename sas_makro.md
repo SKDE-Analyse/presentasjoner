@@ -3,15 +3,7 @@ name: normal
 layout: true
 class: left, inverse
 
----
-name: oppgave
-layout: true
-class: left
 
----
-name: inverse
-layout: true
-class: center, middle, inverse
 ---
 template: inverse
 
