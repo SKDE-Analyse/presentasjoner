@@ -43,16 +43,16 @@ template: normal
 
 --
 ```
-/*
+ /*
 kode
-*/
+ */
 
-/* Kjøre makro */
+ /* Kjøre makro */
 %makronavn;
 
-/*
+ /*
 mer kode
-*/
+ */
 ```
 
 ---
