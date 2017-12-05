@@ -42,7 +42,7 @@ template: normal
 ```
 
 --
-```
+```sas
  /*
 kode
  */
@@ -180,7 +180,7 @@ options sasautos=("&filbane.Makroer\master" SASAUTOS);
 --
 
 - Eksempel: legge til `bohf` etc. i et datasett, ved bruk av `boomraader`-makroen:
-```
+```sas
 data avd;
 set npr_skde.T17_magnus_avd_2016;
 %boomraader;
@@ -203,7 +203,7 @@ template: oppgave
 
 # Oppgave
 
-```
+```sas
 data avd;
 set npr_skde.T17_magnus_avd_2016;
 %boomraader;
