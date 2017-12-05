@@ -113,7 +113,7 @@ template: normal
 ```sas
 %macro makronavn(argument1 = default1, argument2 = default2);
  
-%put NOTE: argument er &argument1;
+%put NOTE: argument1 er &argument1;
 %put NOTE: argument2 er &argument2;
  
 %mend;
