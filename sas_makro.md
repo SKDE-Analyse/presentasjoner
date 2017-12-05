@@ -60,38 +60,5 @@ template: normal
 %mend;
 ```
 
---
-
-Kjøres slik:
-
-```sas
-%makronavn(parameter1 = ditt, parameter2 = datt);
-```
-
----
-template: normal
-
-# SAS-makro
-
-```sas
-%macro makronavn(parameter1 = default1, parameter2 = default2);
- 
-%put NOTE: parameter1 er &parameter1;
-%put NOTE: parameter2 er &parameter2;
- 
-%mend;
-```
-
-Kjøres slik:
-
-```sas
-%makronavn(parameter1 = ditt, parameter2 = datt);
-```
-
---
-Eller slik
-```sas
-%makronavn;
-```
 
 
