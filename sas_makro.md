@@ -94,7 +94,12 @@ Eller slik
 ---
 template: inverse
 
-# Oppgave 1
+# Oppgave
+
+---
+name: oppgave
+layout: true
+class: left
 
 ---
 template: oppgave
