@@ -283,5 +283,15 @@ template: oppgave
 3. gjør det heller for kvinner.
 
 ---
-template: normal
+template: inverse
 
+.center[<img id='barcode' 
+            src="https://api.qrserver.com/v1/create-qr-code/?data=http://cicero.xyz/v2/remark/github/SKDE-Analyse/presentasjoner/master/\
+sas_makro.md&amp;size=350x350" 
+            alt="" 
+            title="Presentasjonen" 
+            width="350" 
+            height="350" />]
+
+
+.footnote[Skann kode for å få tilgang til presentasjonen. Presentasjonen er lagd med [Remark](http://github.com/gnab/remark) ved hjelp av [Cicero](http://cicero.xyz).]
