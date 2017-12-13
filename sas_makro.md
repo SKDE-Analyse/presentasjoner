@@ -13,8 +13,21 @@ template: inverse
 
 .date[Sjette desember 2017, Tromsø]
 
-.footnote[Presentasjonen finnes her: [https://tinyurl.com/sasmakrokurs](https://tinyurl.com/sasmakrokurs)]
+.left[.footnote[Presentasjonen er lagd med [Remark](http://github.com/gnab/remark) ved hjelp av [cicero.xyz](http://cicero.xyz).]]
 
+---
+template: inverse
+
+.center[<img id='barcode' 
+            src="https://api.qrserver.com/v1/create-qr-code/?data=http://cicero.xyz/v2/remark/github/SKDE-Analyse/presentasjoner/master/\
+sas_makro.md&amp;size=350x350" 
+            alt="" 
+            title="Presentasjonen" 
+            width="350" 
+            height="350" />]
+
+
+.left[.footnote[Skann kode for link til presentasjon]]
 
 ---
 name: title
@@ -282,16 +295,3 @@ template: oppgave
 --
 3. gjør det heller for kvinner.
 
----
-template: inverse
-
-.center[<img id='barcode' 
-            src="https://api.qrserver.com/v1/create-qr-code/?data=http://cicero.xyz/v2/remark/github/SKDE-Analyse/presentasjoner/master/\
-sas_makro.md&amp;size=350x350" 
-            alt="" 
-            title="Presentasjonen" 
-            width="350" 
-            height="350" />]
-
-
-.footnote[Skann kode for å få tilgang til presentasjonen. Presentasjonen er lagd med [Remark](http://github.com/gnab/remark) ved hjelp av [Cicero](http://cicero.xyz).]
