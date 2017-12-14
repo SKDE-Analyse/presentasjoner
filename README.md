@@ -1,6 +1,6 @@
 # Presentasjoner
 
-Inneholder presentasjoner holdt av personer ved SKDE sin anaylyseenhet, som ikke er lagd i PowerPoint.
+Inneholder presentasjoner holdt av personer ved SKDE sin analyseenhet, som ikke er lagd i PowerPoint.
 
 ## [remark](https://github.com/gnab/remark)-presentasjoner
 
