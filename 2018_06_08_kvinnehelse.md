@@ -1,18 +1,26 @@
+name: inverse
+class: center, middle, inverse
+layout: true
 ---
-title: "Veien videre"
-output:
-  xaringan::moon_reader:
-    lib_dir: libs
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
+template: inverse
+
+.title[Veien videre]
+
+.subtitle[Analyser]
+
+.author[Arnfinn Hykkerud Steindal]
+
 ---
 class: center, middle
 
 # Planlagte analyser
 
 ### Data fra MFR
+
+---
+name: normal
+layout: true
+class: left
 
 ---
 
