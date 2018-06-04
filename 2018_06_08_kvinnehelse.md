@@ -1,21 +1,16 @@
-name: inverse
-class: center, middle, inverse
-layout: true
----
-template: inverse
 
-.title[Veien videre]
 
-.subtitle[Analyser]
+class: center, middle
 
-.author[Arnfinn Hykkerud Steindal]
+# Veien videre
 
 ---
+
 class: center, middle
 
 # Planlagte analyser
 
-### Data fra MFR
+## Data fra MFR
 
 ---
 name: normal
@@ -23,42 +18,45 @@ layout: true
 class: left
 
 ---
+name: MFR
+layout: true
 
-# Planlagte analyser
+background-image: url(background2.png)
 
-### Fødsler
+# Planlagte analyser, MFR
 
-- Fødsler totalt 
-  - Tredelt søyle: starter spontant/med induksjon/med keisersnitt
-- Fødsler som starter med induksjon
-  - Tredelt søyle: $<$41 uker / =41 uke / >41 uke 
-- Fødsler med keisersnitt (uansett start)
-  - TODELT SØYLE:  AKUTT / PLANLAGT
-- Fødsler m/ epidural 
-  - TODELT SØYLE:  KEISERSNITT / VAGINAL
 
---
+---
+template: MFR
 
-### Forløsning
+## Fødsler
 
+- totalt 
+<!--  - Tredelt søyle: starter spontant/med induksjon/med keisersnitt-->
+- som starter med induksjon $\lt41$ uker
+<!--  - Tredelt søyle: $<$41 uker / =41 uke / >41 uke -->
+- med keisersnitt (uansett start)
+<!--  - TODELT SØYLE:  AKUTT / PLANLAGT-->
+- med epidural 
+<!--  - TODELT SØYLE:  KEISERSNITT / VAGINAL-->
 - Assistert vaginal forløsning 
-  - TODELT SØYLE:  TANG / VAKUM
-- Fødsler med sfinkterruptur grad 3 og 4
-- Fødsler med blødning over 500 ml
-- Fødsler m/ episiotomi
+- med sfinkterruptur grad 3 og 4
+- med blødning over 500 ml
+- med episiotomi
 
---
+---
 
-### Liggetid
+template: MFR
 
-- Liggetid for vaginal fødsel
-- Liggetid for keisersnitt
-- Liggetid for Førstegangsfødende 
-- Liggetid for ikke-førstegangsfødende
+## Liggetid
 
---
+- for vaginal fødsel
+- for keisersnitt
+- for Førstegangsfødende 
+- for ikke-førstegangsfødende
 
 ## Annet
 
 - Assistert befruktning (antall fødsler), IVF
 - Populasjonsbeskrivelse?
+
