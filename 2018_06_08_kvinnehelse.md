@@ -26,39 +26,39 @@ class: left
 
 # Planlagte analyser
 
-### Fødsler
+### FÃ¸dsler
 
-- Fødsler totalt 
-  - Tredelt søyle: starter spontant/med induksjon/med keisersnitt
-- Fødsler som starter med induksjon
-  - Tredelt søyle: $<$41 uker / =41 uke / >41 uke 
-- Fødsler med keisersnitt (uansett start)
-  - TODELT SØYLE:  AKUTT / PLANLAGT
-- Fødsler m/ epidural 
-  - TODELT SØYLE:  KEISERSNITT / VAGINAL
+- FÃ¸dsler totalt 
+  - Tredelt sÃ¸yle: starter spontant/med induksjon/med keisersnitt
+- FÃ¸dsler som starter med induksjon
+  - Tredelt sÃ¸yle: $<$41 uker / =41 uke / >41 uke 
+- FÃ¸dsler med keisersnitt (uansett start)
+  - TODELT SÃ˜YLE:  AKUTT / PLANLAGT
+- FÃ¸dsler m/ epidural 
+  - TODELT SÃ˜YLE:  KEISERSNITT / VAGINAL
 
 --
 
-### Forløsning
+### ForlÃ¸sning
 
-- Assistert vaginal forløsning 
-  - TODELT SØYLE:  TANG / VAKUM
-- Fødsler med sfinkterruptur grad 3 og 4
-- Fødsler med blødning over 500 ml
-- Fødsler m/ episiotomi
+- Assistert vaginal forlÃ¸sning 
+  - TODELT SÃ˜YLE:  TANG / VAKUM
+- FÃ¸dsler med sfinkterruptur grad 3 og 4
+- FÃ¸dsler med blÃ¸dning over 500 ml
+- FÃ¸dsler m/ episiotomi
 
 --
 
 ### Liggetid
 
-- Liggetid for vaginal fødsel
+- Liggetid for vaginal fÃ¸dsel
 - Liggetid for keisersnitt
-- Liggetid for Førstegangsfødende 
-- Liggetid for ikke-førstegangsfødende
+- Liggetid for FÃ¸rstegangsfÃ¸dende 
+- Liggetid for ikke-fÃ¸rstegangsfÃ¸dende
 
 --
 
 ## Annet
 
-- Assistert befruktning (antall fødsler), IVF
+- Assistert befruktning (antall fÃ¸dsler), IVF
 - Populasjonsbeskrivelse?
