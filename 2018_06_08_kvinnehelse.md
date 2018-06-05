@@ -1,12 +1,14 @@
 
 
 class: center, middle
+background-image: url(bg_front_regular.png)
 
-# Veien videre
+.title[Veien videre]
 
 ---
 
 class: center, middle
+background-image: url(bg_regular.png)
 
 # Planlagte analyser
 
@@ -21,7 +23,7 @@ class: left
 name: MFR
 layout: true
 
-background-image: url(background2.png)
+background-image: url(bg_regular.png)
 
 # Planlagte analyser, MFR
 
