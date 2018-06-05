@@ -1,43 +1,42 @@
-
-
+name: front
+layout: true
 class: center, middle
 background-image: url(bg_front_regular.png)
 
+---
+template:front
+
 .title[Veien videre]
 
-.subtitle[Planlagte analyser]
-
----
-
-class: center, middle
-background-image: url(bg_regular.png)
-
-# Planlagte analyser
-
-## Data fra MFR
+## Planlagte analyser
 
 ---
 name: normal
 layout: true
 class: left
+background-image: url(bg_regular.png)
 
 ---
-name: MFR
 layout: true
 
 background-image: url(bg_regular.png)
+
 
 # Planlagte analyser, MFR
 
 
 ---
-template: MFR
+class: middle
 
+.left-column[
 ## Fødsler
+]
 
+
+.right-column[
 - totalt 
 <!--  - Tredelt søyle: starter spontant/med induksjon/med keisersnitt-->
-- som starter med induksjon $\lt41$ uker
+- som starter med induksjon 
 <!--  - Tredelt søyle: $<$41 uker / =41 uke / >41 uke -->
 - med keisersnitt (uansett start)
 <!--  - TODELT SØYLE:  AKUTT / PLANLAGT-->
@@ -48,16 +47,16 @@ template: MFR
 - med blødning over 500 ml
 - med episiotomi
 
+]
 ---
-
-template: MFR
-
 ## Liggetid
 
+.right-column[
 - for vaginal fødsel
 - for keisersnitt
 - for Førstegangsfødende 
 - for ikke-førstegangsfødende
+]
 
 ## Annet
 
@@ -65,7 +64,6 @@ template: MFR
 - Populasjonsbeskrivelse?
 
 ---
-name: KUHR
 layout: true
 
 background-image: url(bg_regular.png)
@@ -73,8 +71,6 @@ background-image: url(bg_regular.png)
 # Planlagte analyser, KUHR
 
 ---
-
-template: KUHR
 
 - Oversikt: Alle X og alle W fra ICPC2
 - Kontakter for Postmenopausal blødning (X12)
@@ -84,6 +80,10 @@ template: KUHR
 - Endometriebiopsi (takst 214c)
 - Kontakter ifm svangerskap
 - Komplikasjoner/kontakter ifm barseltid
+
+---
+layout:true
+background-image: url(bg_regular.png)
 
 ---
 
@@ -102,17 +102,50 @@ template: KUHR
 - Hvorfor?
 
 ---
+template:front
 
+# Veien videre
 
-
-class: center, middle
-background-image: url(bg_front_regular.png)
-
-.title[Veien videre]
-
-.subtitle[Rapporten]
+## Rapporten
 
 ---
+
+.left-column[
+## Rapporten
+
+### Hva gjør vi
+
+]
+
+.right-column[
+
+Vi ved SKDE vil skrive store deler av rapporten, inkludert
+- innledning
+- beskrivelse av utvalg
+- beskrivelse av resultater
+- diskusjonen 
+- konklusjonene.
+]
+
+---
+
+.left-column[
+## Rapporten
+
+### Hva trenger vi hjelp til
+
+]
+
+.right-column[
+
+- kvalitetssikre utvalget 
+- lese gjennom og kommenter beskrivelsen av utvalget 
+- komme med innspill til tolkninger av funn
+]
+
+---
+
+
 
 
 

@@ -11,11 +11,15 @@
 }
 */
 
-/*
 body {
-  color: "rgb(0,51,141)";
+  color: rgb(0,56,155);
 }
-h1, h2, h3 {
-  color: "rgb(122,178,220)";
+h1 {
+  color: rgb(0,51,141);
 }
-*/
+h2 {
+  color: rgb(0,51,141);
+}
+h3 {
+  color: rgb(0,51,141);
+}
