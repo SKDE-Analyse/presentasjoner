@@ -26,12 +26,14 @@ name: mfr
 background-image: url(bg_regular.png)
 
 
-# Planlagte analyser, MFR
+# Planlagte analyser
 
 ---
 template: mfr
 
 .left-column[
+# MFR
+
 ## Fødsler
 ]
 
@@ -55,6 +57,8 @@ template: mfr
 template: mfr
 
 .left-column[
+# MFR
+
 ## .trans[Fødsler]
 ## Liggetid
 ]
@@ -71,6 +75,8 @@ template: mfr
 template: mfr
 
 .left-column[
+# MFR
+
 ## .trans[Fødsler]
 ## .trans[Liggetid]
 ## Annet
@@ -87,9 +93,13 @@ layout: true
 
 background-image: url(bg_regular.png)
 
-# Planlagte analyser, KUHR
+# Planlagte analyser
 
 ---
+
+.left-column[
+# KUHR
+]
 
 .right-column[
 - Oversikt: Alle X og alle W fra ICPC2
@@ -110,9 +120,32 @@ class: center, middle
 
 # Hvilke analyser bør droppes?
 
---
+---
+class: center
+
+# Hvilke analyser bør droppes?
 
 ### Velg tre (eller flere) analyser som kan/bør droppes, av de vi har vist resultater for og de planlagte
+
+<table>
+  <tr>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
 
 
 ---
@@ -246,9 +279,10 @@ template: blank
 - Vurdere om det kan foreligge uberettiget variasjon
 ]
 
-<img src="fig/tidsskjema.png?221" width="80%" height=auto align="bottom">
+<img src="fig/tidsskjema.png?22" width="80%" height=auto align="bottom">
 
 ---
 
 
 template: blank
+
