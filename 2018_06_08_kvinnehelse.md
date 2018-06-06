@@ -6,7 +6,7 @@ background-image: url(bg_front_regular.png)
 ---
 template:front
 
-.title[Veien videre]
+# Veien videre
 
 ## Planlagte analyser
 
@@ -17,39 +17,42 @@ class: left
 background-image: url(bg_regular.png)
 
 ---
-layout: true
+name: mfr
 
 background-image: url(bg_regular.png)
 
 
 # Planlagte analyser, MFR
 
-
 ---
-class: middle
+template: mfr
 
 .left-column[
 ## Fødsler
 ]
 
-
 .right-column[
-- totalt 
-<!--  - Tredelt søyle: starter spontant/med induksjon/med keisersnitt-->
-- som starter med induksjon 
-<!--  - Tredelt søyle: $<$41 uker / =41 uke / >41 uke -->
-- med keisersnitt (uansett start)
-<!--  - TODELT SØYLE:  AKUTT / PLANLAGT-->
-- med epidural 
-<!--  - TODELT SØYLE:  KEISERSNITT / VAGINAL-->
+- Totalt<br>
+  &nbsp;&nbsp;starter spontant/med induksjon/med keisersnitt
+- Starter med induksjon <br>
+  &nbsp;&nbsp; $\lt$41 uke,  41 uke,  $\gt$41 uke
+- Med keisersnitt (uansett start) <br>
+  &nbsp;&nbsp;Akutt/planlagt
+- Med epidural<br>
+  &nbsp;&nbsp;Keisersnitt, vaginal
 - Assistert vaginal forløsning 
-- med sfinkterruptur grad 3 og 4
-- med blødning over 500 ml
-- med episiotomi
-
+- Sfinkterruptur grad 3 og 4
+- Blødning over 500 ml
+- Med episiotomi
 ]
+
 ---
+
+template: mfr
+
+.left-column[
 ## Liggetid
+]
 
 .right-column[
 - for vaginal fødsel
@@ -58,12 +61,21 @@ class: middle
 - for ikke-førstegangsfødende
 ]
 
-## Annet
+---
 
+template: mfr
+
+.left-column[
+## Annet
+]
+
+.right-column[
 - Assistert befruktning (antall fødsler), IVF
 - Populasjonsbeskrivelse?
+]
 
 ---
+
 layout: true
 
 background-image: url(bg_regular.png)
@@ -72,6 +84,7 @@ background-image: url(bg_regular.png)
 
 ---
 
+.right-column[
 - Oversikt: Alle X og alle W fra ICPC2
 - Kontakter for Postmenopausal blødning (X12)
 - Kontakter for Prolaps av kv. kjønnsorgan (X87)
@@ -80,7 +93,7 @@ background-image: url(bg_regular.png)
 - Endometriebiopsi (takst 214c)
 - Kontakter ifm svangerskap
 - Komplikasjoner/kontakter ifm barseltid
-
+]
 ---
 layout:true
 background-image: url(bg_regular.png)
@@ -89,17 +102,20 @@ background-image: url(bg_regular.png)
 
 # Andre analyser?
 
+.right-column[
 - Vaginal UL?
 - Andre gynekologiske undersøkelser?
 - Andre aktuelle tilstander?
-
+]
 ---
+class: center, middle
 
-# Hvilke analyser bør droppes
+# Hvilke analyser bør droppes?
 
-- Velg 3 (eller flere) analyser som kan/bør droppes
-  - Av de vi har vist resultater for og de planlagte
-- Hvorfor?
+--
+
+### Velg tre (eller flere) analyser som kan/bør droppes, av de vi har vist resultater for og de planlagte
+
 
 ---
 template:front
@@ -110,42 +126,65 @@ template:front
 
 ---
 
-.left-column[
-## Rapporten
+# Rapporten
 
-### Hva gjør vi
+.right[![Right-aligned image](fig/kvinne_front.png)]
+
+---
+
+# Rapporten
+
+.left-column[
+
+## Hva gjør vi
 
 ]
 
 .right-column[
 
 Vi ved SKDE vil skrive store deler av rapporten, inkludert
-- innledning
-- beskrivelse av utvalg
-- beskrivelse av resultater
-- diskusjonen 
-- konklusjonene.
+- Innledning
+- Beskrivelse av utvalg
+- Beskrivelse av resultater
+- Diskusjon
+- Konklusjonene
 ]
 
 ---
 
-.left-column[
-## Rapporten
+# Rapporten
 
-### Hva trenger vi hjelp til
+.left-column[
+
+## Hva trenger vi hjelp til
 
 ]
 
 .right-column[
 
-- kvalitetssikre utvalget 
-- lese gjennom og kommenter beskrivelsen av utvalget 
-- komme med innspill til tolkninger av funn
+- Kvalitetssikre utvalget 
+- Lese gjennom og kommenter beskrivelsen av utvalget 
+- Komme med innspill til tolkninger av funn
+
+Dere vil få tilsendt tekstene som er relevant for deres fagfelt.
 ]
 
 ---
 
+template:front
 
+# Veien videre
 
+## Faktaarkene
+
+---
+
+# Faktaarkene
+
+"bilde av faktaark"
+
+???
+
+Lages etter at rapporten er klar for gjennomlesning av dere
 
 

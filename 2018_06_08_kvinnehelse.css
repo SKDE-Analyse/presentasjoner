@@ -14,12 +14,7 @@
 body {
   color: rgb(0,56,155);
 }
-h1 {
+h1, h2, h3 {
   color: rgb(0,51,141);
-}
-h2 {
-  color: rgb(0,51,141);
-}
-h3 {
-  color: rgb(0,51,141);
+  font-family: 'Open Sans', sans-serif;
 }
