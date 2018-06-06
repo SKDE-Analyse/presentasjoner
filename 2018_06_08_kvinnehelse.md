@@ -128,7 +128,8 @@ template:front
 
 # Rapporten
 
-.right[![Right-aligned image](fig/kvinne_front.png)]
+<img src="fig/kvinne_front.png" width="45%" height="45%"/>
+<!--.right[![Right-aligned image](fig/kvinne_front.png)]-->
 
 ---
 
