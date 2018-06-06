@@ -163,8 +163,9 @@ Vi ved SKDE vil skrive store deler av rapporten, inkludert
 .right-column[
 
 - Kvalitetssikre utvalget 
-- Lese gjennom og kommenter beskrivelsen av utvalget 
-- Komme med innspill til tolkninger av funn
+- Lese gjennom og kommenter beskrivelsen av utvalget
+- Innledende tekst om de ulike fagområder
+- Tolkninger av funn i lys av relevant faglitteratur
 
 Dere vil få tilsendt tekstene som er relevant for deres fagfelt.
 ]
