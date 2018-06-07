@@ -30,8 +30,16 @@ template:front
 ---
 template:normal
 name: mfr
+layout: true
 
 # Planlagte analyser
+
+---
+template: mfr
+
+## Data fra Medisinsk fødselsregister (MFR)
+
+## Data fra KUHR
 
 ---
 template: mfr
@@ -43,7 +51,7 @@ template: mfr
 ]
 
 .right-column[
-- Fødsler totalt. .graa[Splittet på "starter spontant"/"med induksjon"/"med keisersnitt"]
+- Fødsler totalt. .graa[Splittet på «starter spontant»/«med induksjon»/«med keisersnitt»]
 - Starter med induksjon. .graa[Splittet på $\lt$41 uke,  41 uke,  $\gt$41 uke]
 - Med epidural. .graa[Splittet på keisersnitt og vaginal fødsel]
 - Med keisersnitt. .graa[Splittet på akutt og planlagt]
@@ -68,6 +76,7 @@ template: mfr
 ]
 
 .right-column[
+Liggetid
 - for vaginal fødsel
 - for keisersnitt
 - for førstegangsfødende 
@@ -107,9 +116,10 @@ template: mfr
 - Infertilitet .graa[(W15,Y10)]
 - Blødningsforstyrrelser .graa[(]<b>X05?</b>.graa[, X06, X07, X08)]
 - Endometriebiopsi .graa[(takst 214c)]
-- <b>Kontakter ifm svangerskap</b>
-- <b>Komplikasjoner/kontakter ifm barseltid</b>
-- Spiral og p-stav .graa[takst 214a minus de med 149a]
+- <b>Kontakter ifm svangerskap</b>$^\ast$
+.footnote[$^\ast$ ] 
+- <b>Komplikasjoner/kontakter ifm barseltid</b>$^\ast$
+- Spiral og p-stav .graa[(takst 214a ekskludert de med takst 149a)]
 ]
 
 ---
