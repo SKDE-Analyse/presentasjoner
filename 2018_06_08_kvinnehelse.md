@@ -117,10 +117,18 @@ template: mfr
 - Blødningsforstyrrelser .graa[(]<b>X05?</b>.graa[, X06, X07, X08)]
 - Endometriebiopsi .graa[(takst 214c)]
 - <b>Kontakter ifm svangerskap</b>$^\ast$
-.footnote[$^\ast$ ] 
+.footnote[$^\ast$ W95/W99 barsel eller svangerskap?<br> Inkluderer 217c jordmor på helsestasjon?] 
 - <b>Komplikasjoner/kontakter ifm barseltid</b>$^\ast$
 - Spiral og p-stav .graa[(takst 214a ekskludert de med takst 149a)]
 ]
+
+???
+
+SPØRSMÅL: 
+1.	Det er to tilstandskoder med overlapp svangerskap/barsel: W95, W99. Er disse kodene mye brukt? I hvilken av de to analysene er det mest riktig å ha med pasientkontakter med disse tilstandskodene?
+
+2.	Dersom vi skal få et noenlunde komplett bilde av svangerskapsomsorgen er vi avhengige av å få med kontroller utført av jordmødre på helsestasjon. Takst 217c er definert som graviditetskontroll utført av jordmor, med forutsetningen at jordmor er ansatt hos den legen som utløser taksten. Er det slik at alle jordmødre ved kommunale helsestasjoner har et ansettelsesforhold hos en fastlege og dermed utløser denne taksten når de utfører en kontroll? Vil vi få med alle svangerskapskontroller utført av jordmor som inngår i den offentlig finansierte svangerskapsomsorgen ved å ha med kontroller med denne taksten? Hvis ikke, hvordan kan vi evt. få disse med?
+
 
 ---
 template: normal
