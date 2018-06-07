@@ -2,10 +2,22 @@ name: blank
 layout: true
 
 ---
+name: reduced
+layout: true
+class: left
+background-image: url(bg_wide_reduced.png)
+
+---
 name: front
 layout: true
 class: center, middle
-background-image: url(bg_front_regular.png)
+background-image: url(bg_front_wide.png)
+
+---
+name: normal
+layout: true
+class: left
+background-image: url(bg_wide.png)
 
 ---
 template:front
@@ -15,16 +27,8 @@ template:front
 .subtitle[Planlagte analyser]
 
 ---
-name: normal
-layout: true
-class: left
-background-image: url(bg_regular.png)
-
----
+template:normal
 name: mfr
-
-background-image: url(bg_regular.png)
-
 
 # Planlagte analyser
 
@@ -38,19 +42,18 @@ template: mfr
 ]
 
 .right-column[
-- Totalt<br>
-  &nbsp;&nbsp;starter spontant/med induksjon/med keisersnitt
-- Starter med induksjon <br>
-  &nbsp;&nbsp; $\lt$41 uke,  41 uke,  $\gt$41 uke
-- Med keisersnitt (uansett start) <br>
-  &nbsp;&nbsp;Akutt/planlagt
-- Med epidural<br>
-  &nbsp;&nbsp;Keisersnitt, vaginal
-- Assistert vaginal forløsning 
+- Fødsler totalt. .graa[Splittet på "starter spontant"/"med induksjon"/"med keisersnitt"]
+- Starter med induksjon. .graa[Splittet på $\lt$41 uke,  41 uke,  $\gt$41 uke]
+- Med epidural. .graa[Splittet på keisersnitt og vaginal fødsel]
+- Med keisersnitt. .graa[Splittet på akutt og planlagt]
+- Assistert vaginal forløsning. .graa[Splittet på tang og vakuum]
 - Sfinkterruptur grad 3 og 4
 - Blødning over 500 ml
 - Med episiotomi
 ]
+???
+
+- Keisersnitt uansett start
 
 ---
 
@@ -66,7 +69,7 @@ template: mfr
 .right-column[
 - for vaginal fødsel
 - for keisersnitt
-- for Førstegangsfødende 
+- for førstegangsfødende 
 - for ikke-førstegangsfødende
 ]
 
@@ -83,45 +86,38 @@ template: mfr
 ]
 
 .right-column[
-- Assistert befruktning (antall fødsler), IVF
-- Populasjonsbeskrivelse?
+- Assistert befruktning. .graa[antall fødsler, IVF]
+- Populasjonsbeskrivelse?<br><br>
+.graa[Hvilke variabler fra MFR bør inngå i en populasjonsbeskrivelse av fødende kvinner?]
+
 ]
 
 ---
-
-layout: true
-
-background-image: url(bg_regular.png)
-
-# Planlagte analyser
-
----
+template: mfr
 
 .left-column[
 # KUHR
 ]
 
 .right-column[
-- Oversikt: Alle X og alle W fra ICPC2
-- Kontakter for Postmenopausal blødning (X12)
-- Kontakter for Prolaps av kv. kjønnsorgan (X87)
-- Infertilitet (W15,Y10)
-- Blødningsforstyrrelser (X05?, X06, X07, X08)
-- Endometriebiopsi (takst 214c)
-- Kontakter ifm svangerskap
-- Komplikasjoner/kontakter ifm barseltid
+- Totaloversikt. .graa[Alle pasienter med diagnoser (ICPC2) som starter med X og W]
+- Kontakter for postmenopausal blødning .graa[(X12)]
+- Kontakter for prolaps av kvinnelig kjønnsorgan .graa[(X87)]
+- Infertilitet .graa[(W15,Y10)]
+- Blødningsforstyrrelser .graa[(]<b>X05?</b>.graa[, X06, X07, X08)]
+- Endometriebiopsi .graa[(takst 214c)]
+- <b>Kontakter ifm svangerskap</b>
+- <b>Komplikasjoner/kontakter ifm barseltid</b>
 ]
----
-layout:true
-background-image: url(bg_regular.png)
 
 ---
+template: normal
 class: center, middle
 
 # Hvilke analyser bør droppes?
 
 ---
-class: center
+template: normal
 
 # Hvilke analyser bør droppes?
 
@@ -155,6 +151,13 @@ class: center
 
 
 ---
+template: normal
+class: center, middle
+
+# Andre analyser?
+
+---
+template: normal
 
 # Andre analyser?
 
@@ -177,11 +180,11 @@ template:front
 
 # Rapporten
 
-<div style="width: 100%;">
-   <div style="float:left; width: 50%; padding-top: 3em;">
-<img src="fig/kvinne_front.png" width="65%" height=auto class="rotate30">
+<div style="width: 95%;">
+   <div style="float:right; width: 50%;">
+<img src="fig/kvinne_front.png" width="75%" height=auto>
    </div>
-   <div style="float:right; width: 50%; padding-top: 2em;">
+   <div style="float:left; width: 50%; padding-top: 2em;">
 Inneholder<br>
 <ul>
 <li> Sammendrag </li>
@@ -196,21 +199,22 @@ Inneholder<br>
 <div style="clear:both"></div>
 
 ---
+template:normal
 
 # Faktaarkene
 
-<div style="width: 100%;">
-   <div style="float:left; width: 50%; padding-top: 2em;">
-   <img src="fig/faktaark.png" width="75%" height=auto class="rotate30">
-   </div>
-   <div style="float:right;width: 50%; padding-top: 2em;">
-Ett faktaark pr. fagområde
-<ul>
-<li> Tre-fire figurer </li>
-<li> For folk flest </li>
+<div style="width: 95%;">
+   <div style="float:left;width: 50%; padding-top: 2em;">
+   Ett faktaark pr. fagområde
+   <ul>
+   <li> Tre-fire figurer </li>
+   <li> For folk flest </li>
 <li> Bakgrunn, om resultatene, og kommentar </li>
 <li> Lages etter at førsteutkastet til rapporten er ferdig </li>
 </ul>
+   </div>
+   <div style="float:right; width: 50%;">
+   <img src="fig/faktaark.png" width="75%" height=auto>
    </div>
 </div>
 <div style="clear:both"></div>
@@ -277,7 +281,6 @@ template: blank
 ]
 
 .right-column[
-
 - Kvalitetssikre utvalget
 - Lese gjennom og vurdere beskrivelsen av utvalget
 - Innledende tekst om de ulike fagområder
@@ -285,8 +288,9 @@ template: blank
 - Vurdere om det kan foreligge uberettiget variasjon
 ]
 
-<img src="fig/tidsskjema.png?22" width="80%" height=auto align="bottom">
-
+<div style="float:left;width: 80%; padding-top: 1em;">
+     <img src="fig/tidsskjema.png?22" width="100%" height=auto align="bottom">
+</div>
 ---
 
 
