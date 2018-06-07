@@ -191,9 +191,9 @@ template: normal
 # Andre analyser?
 
 .right-column[
-- Vaginal UL?
-- Andre gynekologiske undersøkelser?
-- Andre aktuelle tilstander?
+### Vaginal ultralyd?
+### Andre gynekologiske undersøkelser?
+### Andre aktuelle tilstander?
 ]
 ---
 template: blank
