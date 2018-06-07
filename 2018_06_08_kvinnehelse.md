@@ -128,23 +128,29 @@ class: center
 ### Velg tre (eller flere) analyser som kan/bør droppes, av de vi har vist resultater for og de planlagte
 
 <table>
-  <tr>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
-  </tr>
-  <tr>
-    <td>John</td>
-    <td>Doe</td>
-    <td>80</td>
-  </tr>
+<tr><th>Tema</th><th>Utvalg</th><th>Datakilde</th><th>Polikl. Kont.</th><th>Inngrep</th></tr>
+<tr><td>Gynekologiske undersøkelser</td><td>Kolposkopi</td><td>NPR</td><td>95423</td><td></td></tr>
+<tr><td></td><td>Diagn. av endometriet</td><td>NPR, KUHR</td><td>19096</td><td></td></tr>
+<tr><td>Prevensjon, sterilisering og abort</td><td>Innsetting av spiral</td><td>NPR, KUHR</td><td>16815</td><td></td></tr>
+<tr><td></td><td>Sterilisering </td><td>NPR</td><td></td><td>1 072 NB!</td></tr>
+<tr><td></td><td>Spontanabort, kir. beh.</td><td>NPR</td><td></td><td>897 NB!</td></tr>
+<tr><td></td><td>Selvbestemt abort, 0-12</td><td>Abortreg.</td><td></td><td>Ca. 13000</td></tr>
+<tr><td>Tilstander hos unge kvinner</td><td>Polic. ovariesyndrom</td><td>NPR</td><td>5038</td><td></td></tr>
+<tr><td></td><td>Endometriose</td><td>NPR</td><td>6904</td><td>1 160 NB!</td></tr>
+<tr><td>Svangerskap og fødsel</td><td>Infertilitet</td><td>NPR, KUHR</td><td>47492</td><td></td></tr>
+<tr><td></td><td>Ass. befruktning</td><td>NPR, MFR</td><td></td><td>5776</td></tr>
+<tr><td></td><td>Poliklinikk i svangerskap</td><td>NPR, KUHR</td><td>735560</td><td></td></tr>
+<tr><td></td><td>UL i svangerskap</td><td>NPR</td><td>463473</td><td></td></tr>
+<tr><td></td><td>Fødsel</td><td>MFR</td><td></td><td></td></tr>
+<tr><td></td><td>Poliklinikk i barseltid</td><td>NPR, KUHR</td><td></td><td></td></tr>
+<tr><td>Tilstander (oftest) etter svangerskap og fødsel</td><td>Prolaps kv. kjønnsorgan</td><td>NPR, KUHR</td><td>24814</td><td>4027</td></tr>
+<tr><td></td><td>Postmenopausal blødn.</td><td>NPR, KUHR</td><td>9490</td><td></td></tr>
+<tr><td></td><td>Urininkontinens</td><td>NPR</td><td>26604</td><td>2528</td></tr>
+<tr><td></td><td>Kraftige/hyppige blødn.</td><td>NPR, KUHR</td><td>23745</td><td>3080</td></tr>
+<tr><td></td><td>Myom i livmor</td><td>NPR</td><td>23255</td><td>2105</td></tr>
+<tr><td></td><td>Hysterektomi</td><td>NPR</td><td></td><td>1241</td></tr>
+<tr><td></td><td>Brystreduksjon</td><td>NPR</td><td></td><td>1932</td></tr>
+<tr><td></td><td>Brystrekonstruksjon</td><td>NPR</td><td></td><td>1846</td></tr>
 </table>
 
 
