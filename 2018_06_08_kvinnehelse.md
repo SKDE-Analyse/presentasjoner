@@ -5,20 +5,20 @@ layout: true
 name: reduced
 layout: true
 class: left
-background-image: url(bg_wide_reduced.png)
+background-image: url(bg_wide_reduced.png?1)
 
 
 ---
 name: front
 layout: true
 class: center, middle
-background-image: url(bg_front_wide.png)
+background-image: url(bg_front_wide.png?1)
 
 ---
 name: normal
 layout: true
 class: left
-background-image: url(bg_wide.png)
+background-image: url(bg_wide.png?1)
 
 ---
 template:front
@@ -117,7 +117,7 @@ template: mfr
 - Blødningsforstyrrelser .graa[(]<b>X05?</b>.graa[, X06, X07, X08)]
 - Endometriebiopsi .graa[(takst 214c)]
 - <b>Kontakter ifm svangerskap</b>$^\ast$
-.footnote[$^\ast$ W95/W99 barsel eller svangerskap?<br> Inkluderer 217c jordmor på helsestasjon?] 
+.footnote[$^\ast$ &#8209;W95/W99 barsel eller svangerskap?<br>&nbsp;&nbsp;&nbsp;&#8209;Inkluderer 217c jordmor på helsestasjon?] 
 - <b>Komplikasjoner/kontakter ifm barseltid</b>$^\ast$
 - Spiral og p-stav .graa[(takst 214a ekskludert de med takst 149a)]
 ]
@@ -161,7 +161,7 @@ template: reduced
 <tr><td></td><td>UL i svangerskap</td><td>NPR</td><td class="tall">463473</td><td class="tall"></td></tr>
 <tr><td></td><td>Fødsel</td><td>MFR</td><td class="tall"></td><td class="tall"></td></tr>
 <tr><td></td><td>Poliklinikk i barseltid</td><td>NPR, KUHR</td><td class="tall"></td><td class="tall"></td></tr>
-<tr><td>Tilstander (oftest) etter svangerskap og fødsel</td><td>Prolaps kv. kjønnsorgan</td><td>NPR, KUHR</td><td class="tall">24814</td><td class="tall">4027</td></tr>
+<tr><td>Tilstander etter svangerskap og fødsel&nbsp;</td><td>Prolaps kv. kjønnsorgan</td><td>NPR, KUHR</td><td class="tall">24814</td><td class="tall">4027</td></tr>
 <tr><td></td><td>Postmenopausal blødn.</td><td>NPR, KUHR</td><td class="tall">9490</td><td class="tall"></td></tr>
 <tr><td></td><td>Urininkontinens</td><td>NPR</td><td class="tall">26604</td><td class="tall">2528</td></tr>
 <tr><td></td><td>Kraftige/hyppige blødn.</td><td>NPR, KUHR</td><td class="tall">23745</td><td class="tall">3080</td></tr>
@@ -206,15 +206,16 @@ template:front
 .subtitle[Rapport og faktaark]
 
 ---
+template:normal
 
 # Rapporten
 
 <div style="width: 95%;">
    <div style="float:right; width: 50%;">
-<img src="fig/kvinne_front.png" width="75%" height=auto>
+<img src="fig/kvinne_front.png?1" width="75%" height=auto>
    </div>
    <div style="float:left; width: 50%; padding-top: 2em;">
-Inneholder<br>
+Inneholder
 <ul>
 <li> Sammendrag </li>
 <li> Innledning </li>
@@ -222,6 +223,7 @@ Inneholder<br>
 <li> Resultatkapitler </li>
 <li> Drøftingskapittel </li>
 <li> Oppsummering og konklusjon </li>
+<li> Referanseliste </li>
 </ul>
    </div>
 </div>
@@ -236,20 +238,21 @@ template:normal
    <div style="float:left;width: 50%; padding-top: 2em;">
    Ett faktaark pr. fagområde
    <ul>
-   <li> Tre-fire figurer </li>
    <li> For folk flest </li>
+   <li> To-tre figurer </li>
 <li> Bakgrunn, om resultatene, og kommentar </li>
 <li> Lages etter at førsteutkastet til rapporten er ferdig </li>
 </ul>
    </div>
    <div style="float:right; width: 50%;">
-   <img src="fig/faktaark.png" width="75%" height=auto>
+   <img src="fig/faktaark.png?1" width="75%" height=auto>
    </div>
 </div>
 <div style="clear:both"></div>
 
 
 ---
+template:normal
 
 # Rapporten
 
@@ -270,6 +273,7 @@ Vi ved SKDE vil skrive store deler av rapporten, inkludert
 ]
 
 ---
+template:normal
 
 # Rapporten
 
@@ -312,10 +316,8 @@ template: reduced
 ]
 
 <div style="float:left;width: 80%; padding-top: 1em;">
-     <img src="fig/tidsskjema.png?22" width="100%" height=auto align="bottom">
+     <img src="fig/tidsskjema.png?1" width="100%" height=auto align="bottom">
 </div>
 ---
-
-
 template: blank
 
