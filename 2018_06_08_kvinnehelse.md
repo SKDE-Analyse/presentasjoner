@@ -89,7 +89,7 @@ template: mfr
 .right-column[
 - Assistert befruktning. .graa[antall fødsler, IVF]
 - Populasjonsbeskrivelse?<br><br>
-.graa[Hvilke variabler fra MFR bør inngå i en populasjonsbeskrivelse av fødende kvinner?]
+.svart[Hvilke variabler fra MFR bør inngå i en populasjonsbeskrivelse av fødende kvinner?]
 
 ]
 
@@ -109,6 +109,7 @@ template: mfr
 - Endometriebiopsi .graa[(takst 214c)]
 - <b>Kontakter ifm svangerskap</b>
 - <b>Komplikasjoner/kontakter ifm barseltid</b>
+- Spiral og p-stav .graa[takst 214a minus de med 149a]
 ]
 
 ---
@@ -229,12 +230,6 @@ template:normal
 </div>
 <div style="clear:both"></div>
 
----
-template:front
-
-.title[Veien videre]
-
-.subtitle[Hva vil vi med dere?]
 
 ---
 

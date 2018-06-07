@@ -93,6 +93,10 @@ Remove slide number
   color: rgba(0,0,0, 0.5);
 }
 
+.svart {
+  color: rgba(0,0,0, 0.9);
+}
+
 .skde {
   color: rgb(0,51,141);
 }
