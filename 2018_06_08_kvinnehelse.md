@@ -47,7 +47,7 @@ template: mfr
 .left-column[
 # MFR
 
-## Fødsler
+## .svart[Fødsler]
 ]
 
 .right-column[
@@ -72,7 +72,7 @@ template: mfr
 # MFR
 
 ## .trans[Fødsler]
-## Liggetid
+## .svart[Liggetid]
 ]
 
 .right-column[
@@ -92,7 +92,7 @@ template: mfr
 
 ## .trans[Fødsler]
 ## .trans[Liggetid]
-## Annet
+## .svart[Annet]
 ]
 
 .right-column[
