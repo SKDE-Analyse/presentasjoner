@@ -318,6 +318,4 @@ template: reduced
 <div style="float:left;width: 80%; padding-top: 1em;">
      <img src="fig/tidsskjema.png?1" width="100%" height=auto align="bottom">
 </div>
----
-template: blank
 
